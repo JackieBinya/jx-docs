@@ -4,6 +4,7 @@ linktitle: What's next?
 description: What to do after Jenkins X is installed on a Kubernetes cluster
 weight: 6
 draft: true
+toc_hide: true
 ---
 
 OK so you have [got the jx CLI](/getting-started/install/) and you either

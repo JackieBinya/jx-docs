@@ -7,6 +7,10 @@ categories: [getting started]
 keywords: [cluster]
 aliases:
   - /getting-started/create-cluster
+  - /docs/getting-started/setup/create-cluster/
+  - /docs/getting-started/setup/create-cluster
+  - /docs/install-setup/create-cluster
+  - docs/install-setup/create-cluster
 ---
 
 Jenkins X runs on a Kubernetes cluster.

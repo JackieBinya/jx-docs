@@ -3,7 +3,7 @@ title: Guides
 linkTitle: "Guides and Tutorials"
 type: docs
 
-weight: 2
+weight: 5
 ---
 
 <div class="jumbotron">

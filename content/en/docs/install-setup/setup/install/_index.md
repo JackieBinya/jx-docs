@@ -1,11 +1,15 @@
 ---
-title: Install jx
-linktitle: Install jx
+title: Install the jx binary
+linktitle: Install the jx binary
 description: How to install the jx binary on your machine?
-weight: 5
+weight: 1
 keywords: [install]
 aliases:
-  - /getting-started/install
+    - /getting-started/install
+    - /docs/getting-started/setup/install/
+    - /docs/getting-started/setup/install
+    - /docs/install-setup/install/
+    - docs/install-setup/install
 ---
 
 Pick the most suitable instructions for your operating system:

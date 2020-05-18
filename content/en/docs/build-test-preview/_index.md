@@ -1,9 +1,11 @@
 ---
-title: "Build, test and preview an app"
+title: "Build and test"
 date: 2017-01-05
-weight: 3
+weight: 4
 description: >
-  This walkthrough helps you understand how to build, test and preview your app in various built-in **environments** in Jenkins X
+  This chapter helps you understand how to build, test and preview your app in various built-in **environments** in Jenkins X
+aliases:
+  - /docs/getting-started/build-test-preview/
 ---
 
 Jenkins X developer environments should be familiar to anyone who has

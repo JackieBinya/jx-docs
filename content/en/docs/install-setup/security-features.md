@@ -1,8 +1,14 @@
 ---
-title: Security Features
-linktitle: Security Features
+title: Securing Jenkins X
+linktitle: Securing Jenkins X
 description: Security addons for Jenkins X
-weight: 170
+weight: 3
+menu:
+  docs:
+    parent: "Install and Setup"
+    title: "Securing Jenkins X"
+aliases:
+    - /docs/guides/managing-jx/common-tasks/security-features/
 ---
 
 Jenkins X has a few useful addons that can aid with ensuring the ongoing security of your deployed applications. There are static and container security, as well as dynamic security addons available.

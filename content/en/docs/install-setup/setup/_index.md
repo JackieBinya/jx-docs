@@ -1,9 +1,14 @@
 ---
-title: Setup
-linkTitle: Setup
+title: Install Jenkins X
+linkTitle: Install Jenkins X
 weight: 1
 description: >
   How to setup Jenkins X?
+aliases:
+    - /docs/getting-started/setup/
+    - /docs/getting-started/setup/
+    - /docs/install-setup/
+    - docs/install-setup/
 ---
 
 Setting up Jenkins X consist of three steps.
