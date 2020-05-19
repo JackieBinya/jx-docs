@@ -3,6 +3,8 @@ title: Create Quickstart
 linktitle: Create Quickstart
 description: How to create a new quickstart application and import it into Jenkins X
 weight: 10
+aliases:
+  - /docs/getting-started/first-project/create-quickstart/
 ---
 
 Quickstarts are pre-made applications you can start a project from, instead of starting from scratch.

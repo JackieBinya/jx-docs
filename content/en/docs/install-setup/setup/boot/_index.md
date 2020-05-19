@@ -6,13 +6,13 @@ categories: [getting started]
 keywords: [install, cluster]
 weight: 10
 aliases:
-  - /getting-started/boot
-  - /docs/reference/boot
-  - /architecture/tls
+  - /getting-started/boot/
+  - /docs/reference/boot/
+  - /architecture/tls/
   - /docs/getting-started/setup/boot
-  - /docs/getting-started/setup/boot
+  - /docs/getting-started/setup/boot/
   - /docs/install-setup/boot
-  - docs/install-setup/boot
+  - docs/install-setup/boot/
 ---
 
 ## Overview

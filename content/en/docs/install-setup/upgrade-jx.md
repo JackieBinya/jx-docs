@@ -12,6 +12,8 @@ menu:
   docs:
     parent: "Install and Setup"
     title: "Upgrading Jenkins X"
+aliases:
+    - /docs/guides/managing-jx/common-tasks/upgrade-jx/
 ---
 
 Keeping your Jenkins X environment updated can be done by command line
