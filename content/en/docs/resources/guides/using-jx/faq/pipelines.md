@@ -60,11 +60,8 @@ For more detail check out [how to override steps](/docs/reference/pipeline-synta
 
 ## How do Jenkins X Pipelines compare to Jenkins pipelines?
 
-See [the differences between Jenkins X and Jenkins Pipelines](/docs/build-test-preview/jenkins-x-pipelines/#differences-to-jenkins-pipelines)
+See [Jenkins X Pipelines](/docs/build-test-preview/jenkins-x-pipelines/)
 
-## How do I get IDE completion editing `jenkins-x.yml`
-
-See the IDE guide for [IDEA](/docs/build-test-preview/jenkins-x-pipelines/#editing-in-vs-code) and [VS Code](/docs/build-test-preview/jenkins-x-pipelines/#editing-in-vs-code)
 
 ## What environment variables are available by default inside a pipeline?
 
