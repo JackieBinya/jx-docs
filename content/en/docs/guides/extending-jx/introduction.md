@@ -1,12 +1,9 @@
 ---
-title: Overview
+title: Introduction
 linktitle: Apps Framework
 description: Extending Jenkins X using the Apps Framework
 type: docs
-no_list: true
-menu:
-  community:
-    weight: 10
+weight: 1
 aliases:
     - /docs/contributing/addons/
 ---
