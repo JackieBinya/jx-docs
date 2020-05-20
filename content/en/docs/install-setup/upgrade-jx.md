@@ -7,7 +7,7 @@ publishdate: 2019-05-01
 lastmod: 2019-05-01
 categories: [tutorials]
 keywords: [usage,docs]
-weight: 2
+weight: 20
 menu:
   docs:
     parent: "Install and Setup"

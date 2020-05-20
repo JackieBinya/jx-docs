@@ -2,7 +2,7 @@
 title: Securing Jenkins X
 linktitle: Securing Jenkins X
 description: Security addons for Jenkins X
-weight: 3
+weight: 30
 menu:
   docs:
     parent: "Install and Setup"
