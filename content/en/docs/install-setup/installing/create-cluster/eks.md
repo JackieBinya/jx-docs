@@ -136,7 +136,7 @@ The following sections provide a full list of configuration in- and output varia
 
 You can choose to create S3 buckets for long term storage and enable them in the generated _jx-requirements.yml_ file with `enable_logs_storage`, `enable_reports_storage` and `enable_repository_storage`.
 
-For more information refer to the [Storage](/docs/guides/managing-jx/common-tasks/storage/) section.
+For more information refer to the [Storage](/docs/resources/guides/managing-jx/common-tasks/storage/) section.
 
 ## Vault
 

@@ -4,7 +4,7 @@ linktitle: DevPods
 description: Using Jenkins X to continuously deliver value to your customers
 weight: 50
 aliases:
-    - /docs/guides/using-jx/developing/devpods/
+    - /docs/resources/guides/using-jx/developing/devpods/
 ---
 
 Jenkins X allows you to edit app code by using a Kubernetes Pod which we call `DevPod`.  This helps you develop inside the cloud with the same software tools, platform, container images and pod templates as the CI/CD pipelines. This helps keep everyone in the team and your CI/CD pipelines using the same platform and tools all the time to reduce waste and avoid those pesky 'it works on my laptop but not in production' issues.
@@ -21,7 +21,7 @@ Keep in mind, this development workflow helps you make changes before even check
 
 ## Develop Using DevPods and a desktop IDE
 
-In this scenario, you are using a desktop IDE such as VS Code or Intellij which in fact have [a plugin](/docs/guides/using-jx/developing/ide/) for `Jenkins X`.  You are making **iterative** changes using your IDE and said changes are reflected immediately when you open the `url` assigned to your `DevPod`
+In this scenario, you are using a desktop IDE such as VS Code or Intellij which in fact have [a plugin](/docs/resources/guides/using-jx/developing/ide/) for `Jenkins X`.  You are making **iterative** changes using your IDE and said changes are reflected immediately when you open the `url` assigned to your `DevPod`
 
 <figure>
 <img src="/images/developing/developer_workflow_ide.png" />
@@ -30,7 +30,7 @@ In this scenario, you are using a desktop IDE such as VS Code or Intellij which 
 </figcaption>
 
 {{< alert >}}
-See [IDE](/docs/guides/using-jx/developing/ide/#vs-code) for more details on using VSCode
+See [IDE](/docs/resources/guides/using-jx/developing/ide/#vs-code) for more details on using VSCode
 {{< /alert >}}
 
 To get started using this approach, simply execute the following command in the root of your app directory.  We are using a `NodeJS` app for this example, therefore we specify the language using the `-l` parameter.

@@ -290,7 +290,7 @@ A `prowjob` is created, a new prow pipeline controller watches for these jobs an
 
 Jenkins X Pipelines use a new `jenkins-x.yml` file which is YAML instead of the Groovy `Jenkinsfile` used by Jenkins.
 
-However it's still reusing the same reusable and composable build packs under the covers. (The Jenkins X [build packs](/docs/reference/components/build-packs/) are actually written in Jenkins X Pipelines YAML).
+However it's still reusing the same reusable and composable build packs under the covers. (The Jenkins X [build packs](/docs/create-project/build-packs/) are actually written in Jenkins X Pipelines YAML).
 
 One thing you will notice is that with Jenkins X Pipelines we don't need to copy/paste a large `Jenkinsfile` into each application's git repository; usually the generated `jenkins-x.yml` file is small, like this:
 
@@ -298,15 +298,15 @@ One thing you will notice is that with Jenkins X Pipelines we don't need to copy
 buildPack: maven
 ```
 
-That's it! What that basically means is at runtime the Jenkins X Pipeline will use the [build packs](/docs/reference/components/build-packs/) to generate the actual Tekton Pipeline.
+That's it! What that basically means is at runtime the Jenkins X Pipeline will use the [build packs](/docs/create-project/build-packs/) to generate the actual Tekton Pipeline.
 
 ## Customizing the Pipelines
 
-Having automated [build packs](/docs/reference/components/build-packs/) to do all of your CI+CD is pretty awesome - as most of the time your microservices will all be compiled, tested, packaged, released and promoted in the same way. CI+CD is often undifferentiated heavy lifting we should just automate!
+Having automated [build packs](/docs/create-project/build-packs/) to do all of your CI+CD is pretty awesome - as most of the time your microservices will all be compiled, tested, packaged, released and promoted in the same way. CI+CD is often undifferentiated heavy lifting we should just automate!
 
-However there are times you want to customize a [particular pipeline](/docs/reference/components/build-packs/#pipelines) (release, pull request, feature etc) and a particular [life cycle](/docs/first-projects/build-packs/#life-cycles) to change the actual steps invoked.
+However there are times you want to customize a [particular pipeline](/docs/create-project/build-packs/#pipelines) (release, pull request, feature etc) and a particular [life cycle](/docs/first-projects/build-packs/#life-cycles) to change the actual steps invoked.
 
-You can read more about the [extension model](/docs/reference/components/build-packs/#pipeline-extension-model) to find out all you can do. Basically you can add steps before/after any life cycle or completely replace a set of life cycles or even opt out of the build pack completely and inline your pipelines inside your `jenkins-x.yml`
+You can read more about the [extension model](/docs/create-project/build-packs/#pipeline-extension-model) to find out all you can do. Basically you can add steps before/after any life cycle or completely replace a set of life cycles or even opt out of the build pack completely and inline your pipelines inside your `jenkins-x.yml`
 
 For a quick way to add a new step into a pipeline life cycle you can use the [jx create step](/commands/deprecation/) command:
 

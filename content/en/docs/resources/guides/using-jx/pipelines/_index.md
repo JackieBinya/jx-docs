@@ -10,10 +10,10 @@ This section goes into more detail on what you can do with a Jenkins X Pipeline 
 
 There are two main ways of creating a new pipeline:
 
-* Create a new project using a [quick start](/docs/guides/using-jx/creating/)
+* Create a new project using a [quick start](/docs/resources/guides/using-jx/creating/)
 * Create a new `jenkins-x.yml` file and build a pipeline from scratch
 
-Naturally, the first option is the simplest, even for having a starting point, but you can always start from scratch and just [import your existing project](/docs/guides/using-jx/creating/import/)
+Naturally, the first option is the simplest, even for having a starting point, but you can always start from scratch and just [import your existing project](/docs/resources/guides/using-jx/creating/import/)
 
 The pages you’ll find in this section will apply to both ways of creating a pipeline
 

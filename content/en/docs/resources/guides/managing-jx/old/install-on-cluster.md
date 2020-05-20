@@ -11,7 +11,7 @@ weight: 130
 aliases:
   - /getting-started/install-on-cluster
   - /docs/getting-started/install-on-cluster
-  - /docs/guides/managing-jx/common-tasks/install-on-cluster
+  - /docs/resources/guides/managing-jx/common-tasks/install-on-cluster
 ---
 
 Jenkins X can be installed on 1.8 or later of Kubernetes. The requirements are:
@@ -49,7 +49,7 @@ If you are using AWS, be sure to check out the detailed blog on [Continuous Deli
 <!--
 TODO Terraform 
 If you want to go further with infrastructure as code you can follow this
-[guide](/docs/guides/managing-jx/common-tasks/aws-terraform-install-gitops/) about setting up an EKS cluster and other
+[guide](/docs/resources/guides/managing-jx/common-tasks/aws-terraform-install-gitops/) about setting up an EKS cluster and other
 requirements in AWS with Terraform and then installing Jenkins X on it using GitOps for the
 installation.
 -->

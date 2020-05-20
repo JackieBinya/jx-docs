@@ -4,8 +4,8 @@ linktitle: Create Spring Boot
 description: How to create new Spring Boot applications and import them into Jenkins X
 weight: 40
 aliases:
-  - /docs/guides/using-jx/common-tasks/create-spring/
-  - /docs/guides/using-jx/creating/create-spring/
+  - /docs/resources/guides/using-jx/common-tasks/create-spring/
+  - /docs/resources/guides/using-jx/creating/create-spring/
 ---
 
 Java microservices developers can leverage the opinionated resources and

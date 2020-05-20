@@ -5,7 +5,7 @@ weight: 20
 description: >
   How to create a new quickstart application and import it into Jenkins X
 aliases:
-  - /docs/guides/using-jx/creating/
+  - /docs/resources/guides/using-jx/creating/
   - /docs/getting-started/first-project/create-quickstart/
 ---
 
@@ -67,7 +67,7 @@ the right pack for the project using the source code language kinds to pick the
 most suitable match.
 
 When you use [jx create](/docs/getting-started/setup/create-cluster/), [jx
-install](/docs/guides/managing-jx/common-tasks/install-on-cluster/) or [jx
+install](/docs/resources/guides/managing-jx/common-tasks/install-on-cluster/) or [jx
 init](/commands/deprecation/) the [Jenkins X build
 packs](https://github.com/jenkins-x-buildpacks/jenkins-x-kubernetes) are cloned
 into your `~/.jx/draft/packs` folder.
@@ -87,8 +87,8 @@ ls -al ~/.jx/draft/packs/github.com/jenkins-x-buildpacks/jenkins-x-classic/packs
 ```
 
 Then when you create a quickstart, use [jx create
-spring](/docs/guides/using-jx/common-tasks/create-spring/) or [jx
-import](/docs/guides/using-jx/creating/import/) the [Jenkins X build
+spring](/docs/resources/guides/using-jx/common-tasks/create-spring/) or [jx
+import](/docs/resources/guides/using-jx/creating/import/) the [Jenkins X build
 packs](https://github.com/jenkins-x-buildpacks/jenkins-x-kubernetes) are used
 to:
 

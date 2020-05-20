@@ -4,7 +4,7 @@ linktitle: Create Camel
 description: How to create a new Apache Camel microservice and import it into Jenkins X
 weight: 20
 aliases:
-  - /docs/guides/using-jx/creating/create-camel/
+  - /docs/resources/guides/using-jx/creating/create-camel/
 toc_hide: true
 ---
 

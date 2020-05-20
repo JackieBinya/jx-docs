@@ -16,8 +16,8 @@ Typically the creation of preview environments is automated inside the Pipelines
 In a typical Jenkins X development scenario, users make changes to an
 application that has been imported or created via one of the various
 supported methods, such as
-[Quickstarts](/docs/getting-started/first-project/create-quickstart/), [imported projects](/docs/guides/using-jx/creating/import/), and [Spring
-Boot](/docs/guides/using-jx/creating/create-spring/) applications.
+[Quickstarts](/docs/getting-started/first-project/create-quickstart/), [imported projects](/docs/resources/guides/using-jx/creating/import/), and [Spring
+Boot](/docs/resources/guides/using-jx/creating/create-spring/) applications.
 
 When the developer makes the change to their branch, with the ultimate
 goal of merging those branch changes into the `master` branch for

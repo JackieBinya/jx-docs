@@ -30,7 +30,7 @@ Once your user has access to the kubernetes cluster:
 
 * [install the jx binary](/docs/getting-started/setup/install/)
 
-If Jenkins X was installed in the namespace `jx` then the following should [switch your context](/docs/guides/using-jx/developing/kube-context/) to the `jx` namespace:
+If Jenkins X was installed in the namespace `jx` then the following should [switch your context](/docs/resources/guides/using-jx/developing/kube-context/) to the `jx` namespace:
 
     jx ns jx
 
@@ -43,7 +43,7 @@ To view the environments and any development tools like the Jenkins or Nexus con
 
 ## How does access control and security work?
 
-See the [access control documentation](/docs/guides/managing-jx/common-tasks/access-control/)
+See the [access control documentation](/docs/resources/guides/managing-jx/common-tasks/access-control/)
 
 ## How do I upgrade my Jenkins X installation?
 

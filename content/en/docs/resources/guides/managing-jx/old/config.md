@@ -9,7 +9,7 @@ categories: [getting started]
 keywords: [install,kubernetes]
 aliases:
   - /getting-started/config
-  - /docs/guides/managing-jx/common-tasks/config/
+  - /docs/resources/guides/managing-jx/common-tasks/config/
 weight: 50
 ---
 
@@ -25,7 +25,7 @@ Then this YAML file can be used to override any of the underlying [`values.yaml`
 
 Once you have installed you can make more changes via [jx upgrade platform](/commands/deprecation/) which will reuse your `myvalues.yaml` file.
 
-Or if you use [GitOps management](/docs/guides/managing-jx/common-tasks/manage-via-gitops/) you can just create a Pull Request on your Development environment git repository.
+Or if you use [GitOps management](/docs/resources/guides/managing-jx/common-tasks/manage-via-gitops/) you can just create a Pull Request on your Development environment git repository.
 
 ## Nexus
 

@@ -5,12 +5,12 @@ description: Turning source code into applications on kubernetes
 weight: 10
 aliases:
   - /architecture/build-packs
-  - /docs/guides/managing-jx/common-tasks/build-packs
-  - /docs/reference/components/build-packs/
+  - /docs/resources/guides/managing-jx/common-tasks/build-packs
+  - /docs/create-project/build-packs/
   - /docs/reference/components/build-packs
 ---
 
-We use [draft](https://draft.sh/) style _build packs_ for different languages, runtimes and build tools to add the necessary configuration files to projects as we [import them](/docs/guides/using-jx/creating/import/) or [create](/docs/guides/using-jx/common-tasks/create-spring/) [them](/docs/getting-started/first-project/create-quickstart/) so that we can build and deploy them in kubernetes.
+We use [draft](https://draft.sh/) style _build packs_ for different languages, runtimes and build tools to add the necessary configuration files to projects as we [import them](/docs/resources/guides/using-jx/creating/import/) or [create](/docs/resources/guides/using-jx/common-tasks/create-spring/) [them](/docs/getting-started/first-project/create-quickstart/) so that we can build and deploy them in kubernetes.
 
 The build packs are used to default the following files if they do not already exist in the project being created/imported:
 
@@ -25,7 +25,7 @@ The `jx` command line clones the build packs to your `.~/.jx/draft/packs/` folde
 
 ## Pipeline extension model
 
-As part of the move to [cloud native Jenkins](/docs/guides/managing-jx/common-tasks/cloud-native-jenkins/) we've refactored our [build packs](https://github.com/jenkins-x-buildpacks/) so that they are more modular and easier to compose and reuse across workloads.
+As part of the move to [cloud native Jenkins](/docs/resources/guides/managing-jx/common-tasks/cloud-native-jenkins/) we've refactored our [build packs](https://github.com/jenkins-x-buildpacks/) so that they are more modular and easier to compose and reuse across workloads.
 
 For example the [jenkins-x-kubernetes](https://github.com/jenkins-x-buildpacks/jenkins-x-kubernetes) build pack inherits from the [jenkins-x-classic](https://github.com/jenkins-x-buildpacks/jenkins-x-classic) build pack, reusing the CI and release pipelines but then adding the kubernetes specific workloads (e.g. building docker images, creating helm charts, [Preview Environments](/about/concepts/features/#preview-environments) and [Promotion via GitOps](/about/concepts/features/#promotion))
 
@@ -74,7 +74,7 @@ If you want to completely replace all the steps from a base pipeline for a parti
 For example for [maven libraries we use this pipeline.yaml file](https://github.com/jenkins-x-buildpacks/jenkins-x-classic/blob/f7027df958eb385d50fec0c0368e606a6d5eb9df/packs/maven/pipeline.yaml) which:
 
 * [extends](https://github.com/jenkins-x-buildpacks/jenkins-x-classic/blob/f7027df958eb385d50fec0c0368e606a6d5eb9df/packs/maven/pipeline.yaml#L1-L2) the [common pipeline](https://github.com/jenkins-x-buildpacks/jenkins-x-classic/blob/f7027df958eb385d50fec0c0368e606a6d5eb9df/packs/pipeline.yaml) that sets up git and defines common post build steps
-* [configures the agent](https://github.com/jenkins-x-buildpacks/jenkins-x-classic/blob/f7027df958eb385d50fec0c0368e606a6d5eb9df/packs/maven/pipeline.yaml#L3-L5) in terms of [pod template](/docs/guides/managing-jx/common-tasks/pod-templates/) and container name
+* [configures the agent](https://github.com/jenkins-x-buildpacks/jenkins-x-classic/blob/f7027df958eb385d50fec0c0368e606a6d5eb9df/packs/maven/pipeline.yaml#L3-L5) in terms of [pod template](/docs/resources/guides/managing-jx/common-tasks/pod-templates/) and container name
 * defines the steps for the `pull request` pipeline [build steps](https://github.com/jenkins-x-buildpacks/jenkins-x-classic/blob/f7027df958eb385d50fec0c0368e606a6d5eb9df/packs/maven/pipeline.yaml#L7-L11)
 * defines the `release` pipeline [set version steps](https://github.com/jenkins-x-buildpacks/jenkins-x-classic/blob/f7027df958eb385d50fec0c0368e606a6d5eb9df/packs/maven/pipeline.yaml#L13-L18) and [build steps](https://github.com/jenkins-x-buildpacks/jenkins-x-classic/blob/f7027df958eb385d50fec0c0368e606a6d5eb9df/packs/maven/pipeline.yaml#L19-L21)
 
@@ -82,11 +82,11 @@ Then the [maven kubernetes pipeline.yaml](https://github.com/jenkins-x-buildpack
 
 # Creating new build packs
 
-We love [contributions](/community/) so please consider adding new build packs and [pod templates](/docs/guides/managing-jx/common-tasks/pod-templates/).
+We love [contributions](/community/) so please consider adding new build packs and [pod templates](/docs/resources/guides/managing-jx/common-tasks/pod-templates/).
 
 Here are instructions on how to create a new build pack - please if anything is not clear come [join the community and just ask](/community/) we are happy to help!
 
-The best place to start with is a _quickstart_ application. A sample project that you can use as a test. So create/find a suitable example project and then [import it](/docs/guides/using-jx/creating/import/).
+The best place to start with is a _quickstart_ application. A sample project that you can use as a test. So create/find a suitable example project and then [import it](/docs/resources/guides/using-jx/creating/import/).
 
 Then manually add a `Dockerfile` and `Jenkinsfile` if one is not already added for you. You could start with files from the [current build pack folders](https://github.com/jenkins-x-buildpacks/jenkins-x-kubernetes/tree/master/packs) - using the most similar language/framework to yours.
 

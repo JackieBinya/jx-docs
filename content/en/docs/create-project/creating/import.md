@@ -4,7 +4,7 @@ linktitle: Import
 description: How to import existing projects into Jenkins X
 weight: 70
 aliases:
-  - /docs/guides/using-jx/creating/import/
+  - /docs/resources/guides/using-jx/creating/import/
 ---
 
 If you already have some source code you wish to import into Jenkins X then you can use the [jx import](/commands/jx_import/) command. e.g.

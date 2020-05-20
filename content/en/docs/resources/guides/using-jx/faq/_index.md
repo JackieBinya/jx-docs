@@ -38,7 +38,7 @@ Submit that change as a Pull Request so it can go through the CI tests and any p
 
 You can use vanilla helm to do things like injecting the current namespace if you need that.
 
-To see a more complex example of how you can use a `values.yaml` file to inject into charts, see how we use these files to [configure Jenkins X itself](/docs/guides/managing-jx/common-tasks/config/)
+To see a more complex example of how you can use a `values.yaml` file to inject into charts, see how we use these files to [configure Jenkins X itself](/docs/resources/guides/managing-jx/common-tasks/config/)
 
 
 ## How do I inject preview specific configuration?
@@ -147,7 +147,7 @@ For more details the code to resolve it is [here](https://github.com/jenkins-x/j
 
 ## What if my team does not want to use helm?
 
-To help automate CI/CD with GitOps we assume helm charts are created as part of the automated project setup and CI/CD. e.g. just [import your source code](/docs/guides/using-jx/creating/import/) and a docker image + helm chart will be generated for you - the developers don't need to know or care if they don't want to use helm:
+To help automate CI/CD with GitOps we assume helm charts are created as part of the automated project setup and CI/CD. e.g. just [import your source code](/docs/resources/guides/using-jx/creating/import/) and a docker image + helm chart will be generated for you - the developers don't need to know or care if they don't want to use helm:
 
 If a developer wants to specifically create a specific resource (e.g. `Secret, ConfigMap` etc) they can just hack the YAML directly in `charts/myapp/templates/*.yaml`. Increasingly most IDEs now have UI wizards for creating + editing kubernetes resources.
 

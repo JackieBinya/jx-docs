@@ -68,7 +68,7 @@ See the IDE guide for [IDEA](/about/concepts/jenkins-x-pipelines/#editing-in-vs-
 
 ## What environment variables are available by default inside a pipeline?
 
-See the [default environment variables created for pipeline steps](/docs/guides/using-jx/pipelines/envvars/#default-environment-variables)
+See the [default environment variables created for pipeline steps](/docs/resources/guides/using-jx/pipelines/envvars/#default-environment-variables)
 
 ## Is there a reference for the syntax?
 

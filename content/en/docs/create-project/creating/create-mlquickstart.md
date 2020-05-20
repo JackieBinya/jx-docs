@@ -4,7 +4,7 @@ linktitle: Create MLquickstart
 description: How to create a new machine-learning quickstart application and import it into Jenkins X
 weight: 30
 aliases:
-  - /docs/guides/using-jx/creating/create-mlquickstart/
+  - /docs/resources/guides/using-jx/creating/create-mlquickstart/
 ---
 
 Machine learning quickstarts are pre-made machine-learning applications you can leverage to start your own projects.
@@ -87,7 +87,7 @@ The source of these Quickstarts are maintained in [the machine-learning-quicksta
 
 As with conventional Jenkins X quickstarts, we use the [Jenkins X build packs](https://github.com/jenkins-x-buildpacks/jenkins-x-kubernetes) to match the right pack for the project using the source code language and machine learning framework kinds to pick the most suitable match.
 
-When you use [jx create](/docs/getting-started/setup/create-cluster/), [jx install](/docs/guides/managing-jx/common-tasks/install-on-cluster/) or [jx init](/commands/deprecation/) the [Jenkins X build packs](https://github.com/jenkins-x-buildpacks/jenkins-x-kubernetes) are cloned into your `~/.jx/draft/packs` folder.
+When you use [jx create](/docs/getting-started/setup/create-cluster/), [jx install](/docs/resources/guides/managing-jx/common-tasks/install-on-cluster/) or [jx init](/commands/deprecation/) the [Jenkins X build packs](https://github.com/jenkins-x-buildpacks/jenkins-x-kubernetes) are cloned into your `~/.jx/draft/packs` folder.
 
 Then when you create a machine learning quickstart, the [Jenkins X build packs](https://github.com/jenkins-x-buildpacks/jenkins-x-kubernetes) are used to:
 
