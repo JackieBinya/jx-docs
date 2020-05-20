@@ -372,7 +372,7 @@ storage:
     url: gs://my-repo
 ```
 
-For more details see the [Storage Guide](/docs/resources/guides/managing-jx/common-tasks/storage/).
+For more details see the [Storage Guide](/docs/guides/managing-jx/common-tasks/storage/).
 
 ## Ingress
 
